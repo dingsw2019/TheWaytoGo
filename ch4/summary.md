@@ -99,8 +99,8 @@ const hardEight = (1 << 100) >> 97
 ```
 
 ##### 常量定义方法
-* 显式类型定义：``const b string = ""abc"``
-* 隐式类型定义: ``const b = "abc""``，编译器根据变量的值推断其类型
+* 显式类型定义：``const b string = "abc"``
+* 隐式类型定义: ``const b = "abc"``，编译器根据变量的值推断其类型
 
 ```go
 package main
